@@ -4,7 +4,7 @@ class Config(object):
   API_ID = int(os.environ.get("API_ID", "10053188"))
   API_HASH = os.environ.get("API_HASH", "74689cc3a42a7afc507453c94a0cfeb9")
   BOT_TOKEN = os.environ.get("BOT_TOKEN", "5389249317:AAFD704NxQ3d2aWaJSmLFLERXSrILr0J8OE")
-  BOT_USERNAME = os.environ.get("BOT_USERNAME", "@filesearching1bot")
+  BOT_USERNAME = os.environ.get("BOT_USERNAME", "filesearching1bot")
   DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001240395351"))
   SHORTLINK_URL = os.environ.get('SHORTLINK_URL', "")
   SHORTLINK_API = os.environ.get('SHORTLINK_API', "")
